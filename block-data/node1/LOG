@@ -1,0 +1,166 @@
+2020/06/11-11:30:18.123922 efc RocksDB version: 5.3.6
+2020/06/11-11:30:18.124031 efc Git sha rocksdb_build_git_sha:@88724cc719784c78df0c0ff87cca7cafd7abbe37@
+2020/06/11-11:30:18.124061 efc Compile date May 23 2017
+2020/06/11-11:30:18.124090 efc DB SUMMARY
+2020/06/11-11:30:18.124553 efc CURRENT file:  CURRENT
+2020/06/11-11:30:18.124576 efc IDENTITY file:  IDENTITY
+2020/06/11-11:30:18.124639 efc MANIFEST file:  MANIFEST-000001 size: 13 Bytes
+2020/06/11-11:30:18.124657 efc SST files in block-data/node1 dir, Total Num: 0, files: 
+2020/06/11-11:30:18.124669 efc Write Ahead Log file in block-data/node1: 000003.log size: 327 ; 
+2020/06/11-11:30:18.124683 efc                         Options.error_if_exists: 0
+2020/06/11-11:30:18.124694 efc                       Options.create_if_missing: 1
+2020/06/11-11:30:18.124840 efc                         Options.paranoid_checks: 1
+2020/06/11-11:30:18.124848 efc                                     Options.env: 00000000013900A0
+2020/06/11-11:30:18.124861 efc                                Options.info_log: 0000000026119880
+2020/06/11-11:30:18.124866 efc                          Options.max_open_files: -1
+2020/06/11-11:30:18.124872 efc                Options.max_file_opening_threads: 16
+2020/06/11-11:30:18.124876 efc                               Options.use_fsync: 0
+2020/06/11-11:30:18.124880 efc                       Options.max_log_file_size: 0
+2020/06/11-11:30:18.124885 efc                  Options.max_manifest_file_size: 18446744073709551615
+2020/06/11-11:30:18.124889 efc                   Options.log_file_time_to_roll: 0
+2020/06/11-11:30:18.124894 efc                       Options.keep_log_file_num: 1000
+2020/06/11-11:30:18.124898 efc                    Options.recycle_log_file_num: 0
+2020/06/11-11:30:18.124902 efc                         Options.allow_fallocate: 1
+2020/06/11-11:30:18.124906 efc                        Options.allow_mmap_reads: 0
+2020/06/11-11:30:18.124911 efc                       Options.allow_mmap_writes: 0
+2020/06/11-11:30:18.124915 efc                        Options.use_direct_reads: 0
+2020/06/11-11:30:18.124919 efc                        Options.use_direct_writes: 0
+2020/06/11-11:30:18.124924 efc          Options.create_missing_column_families: 0
+2020/06/11-11:30:18.124928 efc                              Options.db_log_dir: 
+2020/06/11-11:30:18.124932 efc                                 Options.wal_dir: block-data/node1
+2020/06/11-11:30:18.124937 efc                Options.table_cache_numshardbits: 6
+2020/06/11-11:30:18.124941 efc                      Options.max_subcompactions: 1
+2020/06/11-11:30:18.124945 efc                  Options.max_background_flushes: 1
+2020/06/11-11:30:18.124949 efc                         Options.WAL_ttl_seconds: 0
+2020/06/11-11:30:18.124954 efc                       Options.WAL_size_limit_MB: 0
+2020/06/11-11:30:18.124958 efc             Options.manifest_preallocation_size: 4194304
+2020/06/11-11:30:18.124962 efc                     Options.is_fd_close_on_exec: 1
+2020/06/11-11:30:18.124967 efc                   Options.stats_dump_period_sec: 600
+2020/06/11-11:30:18.124971 efc                   Options.advise_random_on_open: 1
+2020/06/11-11:30:18.124975 efc                    Options.db_write_buffer_size: 0
+2020/06/11-11:30:18.124979 efc         Options.access_hint_on_compaction_start: 1
+2020/06/11-11:30:18.124984 efc  Options.new_table_reader_for_compaction_inputs: 0
+2020/06/11-11:30:18.124988 efc               Options.compaction_readahead_size: 0
+2020/06/11-11:30:18.124992 efc           Options.random_access_max_buffer_size: 1048576
+2020/06/11-11:30:18.124997 efc           Options.writable_file_max_buffer_size: 1048576
+2020/06/11-11:30:18.125001 efc                      Options.use_adaptive_mutex: 0
+2020/06/11-11:30:18.125005 efc                            Options.rate_limiter: 0000000000000000
+2020/06/11-11:30:18.125010 efc     Options.sst_file_manager.rate_bytes_per_sec: 0
+2020/06/11-11:30:18.125014 efc                          Options.bytes_per_sync: 0
+2020/06/11-11:30:18.125018 efc                      Options.wal_bytes_per_sync: 0
+2020/06/11-11:30:18.125024 efc                       Options.wal_recovery_mode: 2
+2020/06/11-11:30:18.125067 efc                  Options.enable_thread_tracking: 0
+2020/06/11-11:30:18.125078 efc         Options.allow_concurrent_memtable_write: 1
+2020/06/11-11:30:18.125084 efc      Options.enable_write_thread_adaptive_yield: 1
+2020/06/11-11:30:18.125091 efc             Options.write_thread_max_yield_usec: 100
+2020/06/11-11:30:18.125097 efc            Options.write_thread_slow_yield_usec: 3
+2020/06/11-11:30:18.125103 efc                               Options.row_cache: None
+2020/06/11-11:30:18.125110 efc                              Options.wal_filter: None
+2020/06/11-11:30:18.125117 efc             Options.avoid_flush_during_recovery: 0
+2020/06/11-11:30:18.125123 efc             Options.base_background_compactions: 1
+2020/06/11-11:30:18.125129 efc             Options.max_background_compactions: 1
+2020/06/11-11:30:18.125135 efc             Options.avoid_flush_during_shutdown: 0
+2020/06/11-11:30:18.125142 efc             Options.delayed_write_rate : 16777216
+2020/06/11-11:30:18.125149 efc             Options.max_total_wal_size: 0
+2020/06/11-11:30:18.125156 efc             Options.delete_obsolete_files_period_micros: 21600000000
+2020/06/11-11:30:18.125163 efc Compression algorithms supported:
+2020/06/11-11:30:18.125184 efc 	Snappy supported: 0
+2020/06/11-11:30:18.125191 efc 	Zlib supported: 0
+2020/06/11-11:30:18.125197 efc 	Bzip supported: 0
+2020/06/11-11:30:18.125203 efc 	LZ4 supported: 0
+2020/06/11-11:30:18.125209 efc 	ZSTD supported: 0
+2020/06/11-11:30:18.125223 efc Fast CRC32 supported: 0
+2020/06/11-11:30:18.126064 efc Recovering from manifest file: MANIFEST-000001
+2020/06/11-11:30:18.126479 efc --------------- Options for column family [default]:
+2020/06/11-11:30:18.126506 efc               Options.comparator: leveldb.BytewiseComparator
+2020/06/11-11:30:18.126521 efc           Options.merge_operator: None
+2020/06/11-11:30:18.126535 efc        Options.compaction_filter: None
+2020/06/11-11:30:18.126547 efc        Options.compaction_filter_factory: None
+2020/06/11-11:30:18.126559 efc         Options.memtable_factory: SkipListFactory
+2020/06/11-11:30:18.126573 efc            Options.table_factory: BlockBasedTable
+2020/06/11-11:30:18.126661 efc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000000000132A680)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 00000000013CFF00
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  format_version: 2
+2020/06/11-11:30:18.126679 efc        Options.write_buffer_size: 67108864
+2020/06/11-11:30:18.126693 efc  Options.max_write_buffer_number: 2
+2020/06/11-11:30:18.126706 efc          Options.compression: NoCompression
+2020/06/11-11:30:18.126720 efc                  Options.bottommost_compression: Disabled
+2020/06/11-11:30:18.126734 efc       Options.prefix_extractor: nullptr
+2020/06/11-11:30:18.126747 efc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2020/06/11-11:30:18.126760 efc             Options.num_levels: 7
+2020/06/11-11:30:18.126770 efc        Options.min_write_buffer_number_to_merge: 1
+2020/06/11-11:30:18.126786 efc     Options.max_write_buffer_number_to_maintain: 0
+2020/06/11-11:30:18.126799 efc            Options.compression_opts.window_bits: -14
+2020/06/11-11:30:18.126814 efc                  Options.compression_opts.level: -1
+2020/06/11-11:30:18.126826 efc               Options.compression_opts.strategy: 0
+2020/06/11-11:30:18.126841 efc         Options.compression_opts.max_dict_bytes: 0
+2020/06/11-11:30:18.126856 efc      Options.level0_file_num_compaction_trigger: 4
+2020/06/11-11:30:18.126927 efc          Options.level0_slowdown_writes_trigger: 20
+2020/06/11-11:30:18.126946 efc              Options.level0_stop_writes_trigger: 36
+2020/06/11-11:30:18.126959 efc                   Options.target_file_size_base: 67108864
+2020/06/11-11:30:18.126974 efc             Options.target_file_size_multiplier: 1
+2020/06/11-11:30:18.126986 efc                Options.max_bytes_for_level_base: 268435456
+2020/06/11-11:30:18.126999 efc Options.level_compaction_dynamic_level_bytes: 0
+2020/06/11-11:30:18.127012 efc          Options.max_bytes_for_level_multiplier: 10.000000
+2020/06/11-11:30:18.127039 efc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2020/06/11-11:30:18.127053 efc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2020/06/11-11:30:18.127065 efc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2020/06/11-11:30:18.127078 efc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2020/06/11-11:30:18.127090 efc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2020/06/11-11:30:18.127101 efc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2020/06/11-11:30:18.127110 efc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2020/06/11-11:30:18.127117 efc       Options.max_sequential_skip_in_iterations: 8
+2020/06/11-11:30:18.127124 efc                    Options.max_compaction_bytes: 1677721600
+2020/06/11-11:30:18.127131 efc                        Options.arena_block_size: 8388608
+2020/06/11-11:30:18.127143 efc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2020/06/11-11:30:18.127156 efc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2020/06/11-11:30:18.127170 efc       Options.rate_limit_delay_max_milliseconds: 100
+2020/06/11-11:30:18.127184 efc                Options.disable_auto_compactions: 0
+2020/06/11-11:30:18.127199 efc                         Options.compaction_style: kCompactionStyleLevel
+2020/06/11-11:30:18.127214 efc                           Options.compaction_pri: kByCompensatedSize
+2020/06/11-11:30:18.127228 efc  Options.compaction_options_universal.size_ratio: 1
+2020/06/11-11:30:18.127238 efc Options.compaction_options_universal.min_merge_width: 2
+2020/06/11-11:30:18.127265 efc Options.compaction_options_universal.max_merge_width: 4294967295
+2020/06/11-11:30:18.127279 efc Options.compaction_options_universal.max_size_amplification_percent: 200
+2020/06/11-11:30:18.127292 efc Options.compaction_options_universal.compression_size_percent: -1
+2020/06/11-11:30:18.127306 efc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2020/06/11-11:30:18.127320 efc                   Options.table_properties_collectors: 
+2020/06/11-11:30:18.127333 efc                   Options.inplace_update_support: 0
+2020/06/11-11:30:18.127347 efc                 Options.inplace_update_num_locks: 10000
+2020/06/11-11:30:18.127361 efc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2020/06/11-11:30:18.127375 efc   Options.memtable_huge_page_size: 0
+2020/06/11-11:30:18.127389 efc                           Options.bloom_locality: 0
+2020/06/11-11:30:18.127403 efc                    Options.max_successive_merges: 0
+2020/06/11-11:30:18.127416 efc                Options.optimize_filters_for_hits: 0
+2020/06/11-11:30:18.127428 efc                Options.paranoid_file_checks: 0
+2020/06/11-11:30:18.127440 efc                Options.force_consistency_checks: 0
+2020/06/11-11:30:18.127454 efc                Options.report_bg_io_stats: 0
+2020/06/11-11:30:18.129447 efc Recovered from manifest file:block-data/node1/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0
+2020/06/11-11:30:18.129481 efc Column family [default] (ID 0), log number is 0
+2020/06/11-11:30:18.130286 efc EVENT_LOG_v1 {"time_micros": 1591846218129809, "job": 1, "event": "recovery_started", "log_files": [3]}
+2020/06/11-11:30:18.130308 efc Recovering log #3 mode 2
+2020/06/11-11:30:18.139963 efc EVENT_LOG_v1 {"time_micros": 1591846218139934, "cf_name": "default", "job": 1, "event": "table_file_creation", "file_number": 4, "file_size": 1189, "table_properties": {"data_size": 318, "index_size": 28, "filter_size": 0, "raw_key_size": 79, "raw_average_key_size": 39, "raw_value_size": 219, "raw_average_value_size": 109, "num_data_blocks": 1, "num_entries": 2, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2020/06/11-11:30:18.140033 efc Creating manifest 5
+2020/06/11-11:30:18.143088 efc EVENT_LOG_v1 {"time_micros": 1591846218143077, "job": 1, "event": "recovery_finished"}
+2020/06/11-11:30:18.149398 efc DB pointer 00000000260A4480

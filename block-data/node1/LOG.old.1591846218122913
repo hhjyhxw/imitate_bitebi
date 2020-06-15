@@ -1,0 +1,159 @@
+2020/06/11-11:27:57.983821 ecc RocksDB version: 5.3.6
+2020/06/11-11:27:57.983911 ecc Git sha rocksdb_build_git_sha:@88724cc719784c78df0c0ff87cca7cafd7abbe37@
+2020/06/11-11:27:57.983930 ecc Compile date May 23 2017
+2020/06/11-11:27:57.983948 ecc DB SUMMARY
+2020/06/11-11:27:57.984185 ecc SST files in block-data/node1 dir, Total Num: 0, files: 
+2020/06/11-11:27:57.984205 ecc Write Ahead Log file in block-data/node1: 
+2020/06/11-11:27:57.984217 ecc                         Options.error_if_exists: 0
+2020/06/11-11:27:57.984228 ecc                       Options.create_if_missing: 1
+2020/06/11-11:27:57.984243 ecc                         Options.paranoid_checks: 1
+2020/06/11-11:27:57.984254 ecc                                     Options.env: 00000000011022F0
+2020/06/11-11:27:57.984397 ecc                                Options.info_log: 0000000025E875C0
+2020/06/11-11:27:57.984406 ecc                          Options.max_open_files: -1
+2020/06/11-11:27:57.984413 ecc                Options.max_file_opening_threads: 16
+2020/06/11-11:27:57.984417 ecc                               Options.use_fsync: 0
+2020/06/11-11:27:57.984422 ecc                       Options.max_log_file_size: 0
+2020/06/11-11:27:57.984426 ecc                  Options.max_manifest_file_size: 18446744073709551615
+2020/06/11-11:27:57.984431 ecc                   Options.log_file_time_to_roll: 0
+2020/06/11-11:27:57.984435 ecc                       Options.keep_log_file_num: 1000
+2020/06/11-11:27:57.984439 ecc                    Options.recycle_log_file_num: 0
+2020/06/11-11:27:57.984444 ecc                         Options.allow_fallocate: 1
+2020/06/11-11:27:57.984448 ecc                        Options.allow_mmap_reads: 0
+2020/06/11-11:27:57.984452 ecc                       Options.allow_mmap_writes: 0
+2020/06/11-11:27:57.984456 ecc                        Options.use_direct_reads: 0
+2020/06/11-11:27:57.984461 ecc                        Options.use_direct_writes: 0
+2020/06/11-11:27:57.984465 ecc          Options.create_missing_column_families: 0
+2020/06/11-11:27:57.984469 ecc                              Options.db_log_dir: 
+2020/06/11-11:27:57.984473 ecc                                 Options.wal_dir: block-data/node1
+2020/06/11-11:27:57.984478 ecc                Options.table_cache_numshardbits: 6
+2020/06/11-11:27:57.984482 ecc                      Options.max_subcompactions: 1
+2020/06/11-11:27:57.984486 ecc                  Options.max_background_flushes: 1
+2020/06/11-11:27:57.984490 ecc                         Options.WAL_ttl_seconds: 0
+2020/06/11-11:27:57.984495 ecc                       Options.WAL_size_limit_MB: 0
+2020/06/11-11:27:57.984499 ecc             Options.manifest_preallocation_size: 4194304
+2020/06/11-11:27:57.984503 ecc                     Options.is_fd_close_on_exec: 1
+2020/06/11-11:27:57.984508 ecc                   Options.stats_dump_period_sec: 600
+2020/06/11-11:27:57.984512 ecc                   Options.advise_random_on_open: 1
+2020/06/11-11:27:57.984516 ecc                    Options.db_write_buffer_size: 0
+2020/06/11-11:27:57.984520 ecc         Options.access_hint_on_compaction_start: 1
+2020/06/11-11:27:57.984525 ecc  Options.new_table_reader_for_compaction_inputs: 0
+2020/06/11-11:27:57.984529 ecc               Options.compaction_readahead_size: 0
+2020/06/11-11:27:57.984533 ecc           Options.random_access_max_buffer_size: 1048576
+2020/06/11-11:27:57.984537 ecc           Options.writable_file_max_buffer_size: 1048576
+2020/06/11-11:27:57.984542 ecc                      Options.use_adaptive_mutex: 0
+2020/06/11-11:27:57.984546 ecc                            Options.rate_limiter: 0000000000000000
+2020/06/11-11:27:57.984550 ecc     Options.sst_file_manager.rate_bytes_per_sec: 0
+2020/06/11-11:27:57.984555 ecc                          Options.bytes_per_sync: 0
+2020/06/11-11:27:57.984559 ecc                      Options.wal_bytes_per_sync: 0
+2020/06/11-11:27:57.984563 ecc                       Options.wal_recovery_mode: 2
+2020/06/11-11:27:57.984568 ecc                  Options.enable_thread_tracking: 0
+2020/06/11-11:27:57.984572 ecc         Options.allow_concurrent_memtable_write: 1
+2020/06/11-11:27:57.984603 ecc      Options.enable_write_thread_adaptive_yield: 1
+2020/06/11-11:27:57.984609 ecc             Options.write_thread_max_yield_usec: 100
+2020/06/11-11:27:57.984614 ecc            Options.write_thread_slow_yield_usec: 3
+2020/06/11-11:27:57.984618 ecc                               Options.row_cache: None
+2020/06/11-11:27:57.984622 ecc                              Options.wal_filter: None
+2020/06/11-11:27:57.984627 ecc             Options.avoid_flush_during_recovery: 0
+2020/06/11-11:27:57.984631 ecc             Options.base_background_compactions: 1
+2020/06/11-11:27:57.984635 ecc             Options.max_background_compactions: 1
+2020/06/11-11:27:57.984640 ecc             Options.avoid_flush_during_shutdown: 0
+2020/06/11-11:27:57.984644 ecc             Options.delayed_write_rate : 16777216
+2020/06/11-11:27:57.984648 ecc             Options.max_total_wal_size: 0
+2020/06/11-11:27:57.984652 ecc             Options.delete_obsolete_files_period_micros: 21600000000
+2020/06/11-11:27:57.984657 ecc Compression algorithms supported:
+2020/06/11-11:27:57.984668 ecc 	Snappy supported: 0
+2020/06/11-11:27:57.984672 ecc 	Zlib supported: 0
+2020/06/11-11:27:57.984676 ecc 	Bzip supported: 0
+2020/06/11-11:27:57.984680 ecc 	LZ4 supported: 0
+2020/06/11-11:27:57.984684 ecc 	ZSTD supported: 0
+2020/06/11-11:27:57.984692 ecc Fast CRC32 supported: 0
+2020/06/11-11:27:57.985163 ecc Creating manifest 1 
+2020/06/11-11:27:57.998574 ecc Recovering from manifest file: MANIFEST-000001
+2020/06/11-11:27:58.003062 ecc --------------- Options for column family [default]:
+2020/06/11-11:27:58.003087 ecc               Options.comparator: leveldb.BytewiseComparator
+2020/06/11-11:27:58.003092 ecc           Options.merge_operator: None
+2020/06/11-11:27:58.003097 ecc        Options.compaction_filter: None
+2020/06/11-11:27:58.003101 ecc        Options.compaction_filter_factory: None
+2020/06/11-11:27:58.003105 ecc         Options.memtable_factory: SkipListFactory
+2020/06/11-11:27:58.003109 ecc            Options.table_factory: BlockBasedTable
+2020/06/11-11:27:58.003142 ecc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000000000109A6F0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000000000114B920
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  format_version: 2
+2020/06/11-11:27:58.003147 ecc        Options.write_buffer_size: 67108864
+2020/06/11-11:27:58.003152 ecc  Options.max_write_buffer_number: 2
+2020/06/11-11:27:58.003156 ecc          Options.compression: NoCompression
+2020/06/11-11:27:58.003160 ecc                  Options.bottommost_compression: Disabled
+2020/06/11-11:27:58.003164 ecc       Options.prefix_extractor: nullptr
+2020/06/11-11:27:58.003168 ecc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2020/06/11-11:27:58.003173 ecc             Options.num_levels: 7
+2020/06/11-11:27:58.003177 ecc        Options.min_write_buffer_number_to_merge: 1
+2020/06/11-11:27:58.003181 ecc     Options.max_write_buffer_number_to_maintain: 0
+2020/06/11-11:27:58.003185 ecc            Options.compression_opts.window_bits: -14
+2020/06/11-11:27:58.003190 ecc                  Options.compression_opts.level: -1
+2020/06/11-11:27:58.003194 ecc               Options.compression_opts.strategy: 0
+2020/06/11-11:27:58.003198 ecc         Options.compression_opts.max_dict_bytes: 0
+2020/06/11-11:27:58.003202 ecc      Options.level0_file_num_compaction_trigger: 4
+2020/06/11-11:27:58.003207 ecc          Options.level0_slowdown_writes_trigger: 20
+2020/06/11-11:27:58.003211 ecc              Options.level0_stop_writes_trigger: 36
+2020/06/11-11:27:58.003264 ecc                   Options.target_file_size_base: 67108864
+2020/06/11-11:27:58.003272 ecc             Options.target_file_size_multiplier: 1
+2020/06/11-11:27:58.003277 ecc                Options.max_bytes_for_level_base: 268435456
+2020/06/11-11:27:58.003281 ecc Options.level_compaction_dynamic_level_bytes: 0
+2020/06/11-11:27:58.003285 ecc          Options.max_bytes_for_level_multiplier: 10.000000
+2020/06/11-11:27:58.003296 ecc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2020/06/11-11:27:58.003300 ecc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2020/06/11-11:27:58.003305 ecc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2020/06/11-11:27:58.003309 ecc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2020/06/11-11:27:58.003313 ecc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2020/06/11-11:27:58.003317 ecc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2020/06/11-11:27:58.003322 ecc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2020/06/11-11:27:58.003326 ecc       Options.max_sequential_skip_in_iterations: 8
+2020/06/11-11:27:58.003330 ecc                    Options.max_compaction_bytes: 1677721600
+2020/06/11-11:27:58.003335 ecc                        Options.arena_block_size: 8388608
+2020/06/11-11:27:58.003339 ecc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2020/06/11-11:27:58.003343 ecc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2020/06/11-11:27:58.003348 ecc       Options.rate_limit_delay_max_milliseconds: 100
+2020/06/11-11:27:58.003352 ecc                Options.disable_auto_compactions: 0
+2020/06/11-11:27:58.003357 ecc                         Options.compaction_style: kCompactionStyleLevel
+2020/06/11-11:27:58.003362 ecc                           Options.compaction_pri: kByCompensatedSize
+2020/06/11-11:27:58.003367 ecc  Options.compaction_options_universal.size_ratio: 1
+2020/06/11-11:27:58.003371 ecc Options.compaction_options_universal.min_merge_width: 2
+2020/06/11-11:27:58.003382 ecc Options.compaction_options_universal.max_merge_width: 4294967295
+2020/06/11-11:27:58.003387 ecc Options.compaction_options_universal.max_size_amplification_percent: 200
+2020/06/11-11:27:58.003392 ecc Options.compaction_options_universal.compression_size_percent: -1
+2020/06/11-11:27:58.003396 ecc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2020/06/11-11:27:58.003401 ecc                   Options.table_properties_collectors: 
+2020/06/11-11:27:58.003405 ecc                   Options.inplace_update_support: 0
+2020/06/11-11:27:58.003409 ecc                 Options.inplace_update_num_locks: 10000
+2020/06/11-11:27:58.003414 ecc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2020/06/11-11:27:58.003418 ecc   Options.memtable_huge_page_size: 0
+2020/06/11-11:27:58.003422 ecc                           Options.bloom_locality: 0
+2020/06/11-11:27:58.003427 ecc                    Options.max_successive_merges: 0
+2020/06/11-11:27:58.003431 ecc                Options.optimize_filters_for_hits: 0
+2020/06/11-11:27:58.003435 ecc                Options.paranoid_file_checks: 0
+2020/06/11-11:27:58.003439 ecc                Options.force_consistency_checks: 0
+2020/06/11-11:27:58.003444 ecc                Options.report_bg_io_stats: 0
+2020/06/11-11:27:58.004606 ecc Recovered from manifest file:block-data/node1/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0
+2020/06/11-11:27:58.004623 ecc Column family [default] (ID 0), log number is 0
+2020/06/11-11:27:58.015815 ecc DB pointer 0000000025E104B0
